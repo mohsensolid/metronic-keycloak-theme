@@ -1,0 +1,18 @@
+/* Patternfly CSS places a "bg-login.jpg" as the background on this ".login-pf" class.
+   This clashes with the "keycloak-bg.png' background defined on the body below.
+   Therefore the Patternfly background must be set to none. */
+@import "./sass/style.scss";
+.login-pf {
+  background: none;
+}
+.alert-error {
+  color: #912741;
+  background-color: #fcd9e2;
+  border-color: #fbc6d3;
+}
+label.is-invalid{
+  width: 100%;
+  margin-top: 0.5rem;
+  font-size: 0.925rem;
+  color: #f1416c;
+}

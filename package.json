@@ -1,0 +1,14 @@
+{
+  "name": "keycloak_metronic_theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "sass --load-path=./node_modules --watch ./sass/login/login.scss:./theme/login/resources/css/login.css --style compressed"
+  },
+  "author": "mohsen.ashouri.ms@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
