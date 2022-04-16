@@ -1,15 +1,3 @@
-// function validateLoginForm() {
-//     let x = document.forms["kc-form-login"]["username"];
-//     let button = document.forms["kc-form-login"]["kc-login"];
-//     if (x.value == "") {
-//         x.classList.add("is-invalid");
-//         alert("Name must be filled out");
-//         return false;
-//     }
-
-//     button.disabled = true
-//     return true
-// }
 
 $(function () {
     //Validate Login Form
